@@ -30,7 +30,7 @@ class CardBlock (blocks.StructBlock):
     )
 
     class Meta:
-        template = "streams/car_block.html"
+        template = "streams/card_block.html"
         icon = "edit"
         label ="staff card"
 
