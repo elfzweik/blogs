@@ -30,8 +30,12 @@ INSTALLED_APPS = [
     'streams',
     'blog',
     
+    'ckeditor',
+    "wagtail.contrib.table_block",
+    'wagtailmarkdown',
     'wagtail.contrib.forms',
     'wagtail.contrib.redirects',
+    'wagtailcodeblock',
     'wagtail.embeds',
     'wagtail.sites',
     'wagtail.users',
