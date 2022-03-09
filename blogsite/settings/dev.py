@@ -11,6 +11,7 @@ ALLOWED_HOSTS = ['*']
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
+CSRF_TRUSTED_ORIGINS = ['https://blog.petal2collect.art','https://*.127.0.0.1']
 
 try:
     from .local import *
